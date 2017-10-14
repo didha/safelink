@@ -22,9 +22,13 @@ if(a_to_vh==false)
 var x=Math.floor((Math.random()*5)+ 1);
 var xxx=null;
 if(x=="1"){xxx="/2017/10/tni-macan-asia.html"}
-if(x=="2"){xxx="/2017/10/tips-sehablogt-ala-didha.html"}a_to_ve[i].href="https://direct-page.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="2"){xxx="/2017/10/tips-sehablogt-ala-didha.html"}
+if(x=="3"){xxx="/2017/10/volvo-truck.html"}
+if(x=="4"){xxx="/2017/10/persela-lamongan.html"}
+if(x=="5"){xxx="/2017/10/indonesia.html"}a_to_ve[i].href="https://direct-page.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
 {a_to_vk.innerHTML+=a_to_va;}}
 function a_to_fa()
+{var a_to_vf=new Array();protected_links=protected_links.replace(" ","");a_to_vf=protected_links.split(",");return a_to_vf;}
